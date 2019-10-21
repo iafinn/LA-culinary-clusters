@@ -25,3 +25,4 @@ principal component analysis and k-means clustering and compared to rent data fr
 
 ## Sample Results
 
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/pca_clusters.png)
