@@ -46,6 +46,11 @@ Comparing the likes map to the median rent price per square foot in the next fig
 
 The next questions to consider are: 1) what is the geographic distribution of restaurants in LA? and 2) are there natural culinary regions within LA or is it fairly homogeneous? To answer these questions, the restaurant data is rearranged to yield the fraction of each restaurant type in each neighborhood (see notebook in models directory).
 
+Let's consider the possible machine learning methods that could be used to answer these questions. Fundamentally, an unsupervised learning algorithm is required, since there isn't a ground truth --- in other words, the accuracy of the model output cannot be directly calculated. Within unsupervised learning, clustering algorthms are suited to grouping a dataset by similarity. The k-means argorithm is a good simple starting point for clustering, as it doesn't require too many input parameters and it is conceptually easy to understand the outputs. However, k-means suffers from an inability to detect outliers and identify elongated clusters. It also requires the user to input the number of clusters k. The cost function that is minimized during k-means is the inertia, or sum of squares distances between each point in a cluster and the cluster centroid. 
+
+
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/inertia_ss_plot.png)
+
 ### LA Restaurant Clusters Mean Composition
 ![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/cluster_barplot.png)
 
