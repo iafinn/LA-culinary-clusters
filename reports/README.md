@@ -22,13 +22,21 @@ For the previous sections, LA is subdivided using the LA Times neighborhood poly
 
 ## Exploratory Data Analysis
 
-### Most Common Restaurants in LA
+Now I'll go over some highlights from the EDA. The 10 most numerous venues in our dataset are shown next. At the top of list are Mexican, pizza, and fast food restaurants. Any business owner opening a restaurant within these categories should be ready to face a lot of competition. 
 
 ![common](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/most_common_rest.png)
+
+Next, the 10 most liked venues by mean likes are given. Theme restaurants top this list, followed by German and Cuban restaurants. These seem like good restaurant categories for a new business.
+
+![mean_likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/mean_likes.png)
+
+Finally, let's look at the geographic distribution of likes per restaurant. Santa Monica and downtown are both pretty high.
 
 ### Median Likes Per Restaurant
 
 ![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/like_map.png)
+
+Comparing the likes map to the median rent price per square foot in the next figure, shows a clear correlation between the two. Higher rent areas also have a higher number of likes.
 
 ### Median Rent Prices Per Square Foot
 
