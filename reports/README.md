@@ -24,7 +24,7 @@ For the previous sections, LA is subdivided using the LA Times neighborhood poly
 
 ### Most Common Restaurants in LA
 
-https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/most_common_rest.png
+![common](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/most_common_rest.png)
 
 ### Median Likes Per Restaurant
 
