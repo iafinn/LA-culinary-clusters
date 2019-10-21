@@ -42,4 +42,16 @@ Comparing the likes map to the median rent price per square foot in the next fig
 
 ![rent](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/rent_prices.png)
 
+## Modeling with Principal Component Analysis and K-Means Clustering
+
+The next questions to consider are: 1) what is the geographic distribution of restaurants in LA? and 2) are there natural culinary regions within LA or is it fairly homogeneous? To answer these questions, the restaurant data is rearranged to yield the fraction of each restaurant type in each neighborhood (see notebook in models directory).
+
+### LA Restaurant Clusters Mean Composition
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/cluster_barplot.png)
+
+### Geographic Distribution of Clusters
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/clustering_results.png)
+
+### Clusters Projected on the Principal Component Axes
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/pca_clusters.png)
 
