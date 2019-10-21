@@ -22,14 +22,16 @@ For the previous sections, LA is subdivided using the LA Times neighborhood poly
 
 ## Exploratory Data Analysis
 
+### Most Common Restaurants in LA
+
+https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/most_common_rest.png
+
+### Median Likes Per Restaurant
+
+![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/like_map.png)
+
 ### Median Rent Prices Per Square Foot
 
 ![rent](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/rent_prices.png)
-
-### Mean Likes Per Restaurant
-
-![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/mean_likes.png)
-
-![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/like_map.png)
 
 
