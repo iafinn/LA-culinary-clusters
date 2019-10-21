@@ -13,16 +13,23 @@ principal component analysis and k-means clustering and compared to rent data fr
 ## Directory Overview
 
 ```
-├───data
-│   ├───processed
-│   └───raw
-├───data-processing
-├───EDA
-├───models
-└───reports
+├───data            
+│   ├───processed       <- Processed data
+│   └───raw             <- raw JSON files used in analysis
+├───data-processing     <- scripts used for processing and API calls
+├───EDA                 <- Exploratory Data Analysis
+├───models              <- Script used for PCA and k-means clustering 
+└───reports             <- Results of the study
     └───figures
 ```
 
 ## Sample Results
 
+### LA Restaurant Clusters Mean Composition
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/cluster_barplot.png)
+
+### Geographic Distribution of Clusters
+![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/clustering_results.png)
+
+### Clusters Projected on the Principal Component Axes
 ![PCA](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/pca_clusters.png)
