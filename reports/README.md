@@ -22,6 +22,14 @@ For the previous sections, LA is subdivided using the LA Times neighborhood poly
 
 ## Exploratory Data Analysis
 
-### Rent Prices
+### Median Rent Prices Per Square Foot
 
-### Number of Likes Per Restaurant
+![rent](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/rent_prices.png)
+
+### Mean Likes Per Restaurant
+
+![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/mean_likes.png)
+
+![likes](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/like_map.png)
+
+
