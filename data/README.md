@@ -1,5 +1,0 @@
-## Neighborhood Data
-
-Before looking at food we need to better understand the geography of this region. Specifically, we need an effective method of subdividing LA, that is hopefully somewhat related to the culinary make-up of various neighborhoods. One approach is to use official subdivisions, like zipcodes or county lines. This dataset could work well, but the boundaries may not be related to the dynamic cultural boundaries of a modern metropolis. When one neighborhood expands and others converge, zipcodes will not follow, for example. 
-
-I came across a possibly more representative dataset from the LA Times that was drawn with input from hundreds of residents of the city. Let's download their JSON file from <a href="https://s3-us-west-2.amazonaws.com/mappingla.com/downloads/neighborhoods/la_county.json">here</a> and check out the boundaries using GeoPandas and folium's choropleth map. Look <a href="http://maps.latimes.com/neighborhoods/">here</a> for an outline of the LA Times project.
