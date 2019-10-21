@@ -15,3 +15,5 @@ The neighborhood polygons cover all of LA county, so I decided to restrict analy
 ![centroids](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/centroids.png)
 
 All restaurant data was accessed from the [Foursquare API](https://developer.foursquare.com/). Each neighborhood was queried with the explore endpoint in the Places API to get a list of representative restaurants. Results are limited to food venues with the category ID and only 50 venues are returned for each search (there is a 50 venue cap from Foursquare). As an example, the search results for the neighborhood of Alhambra are shown below. In this map, the blue circle represents the search area and the green region is the Alhambra polygon. The center of the search area is given by the Alhambra centroid, and the radius of the search was calculated by finding the maximum distance from the centroid to the furthest point in the polygon. Search results outside (blue dots) and inside (green dots) the Alhambra polygon are differentiated using the 'within' method of GeoPandas.
+
+![API](https://github.com/iafinn/LA-culinary-clusters/blob/master/reports/figures/API_search.png)
